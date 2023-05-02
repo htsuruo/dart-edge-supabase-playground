@@ -10,6 +10,13 @@ Install the dependencies:
 dart pub get
 ```
 
+Set your OpenAI API key.
+
+```sh
+echo "OPENAI_API_KEY=[YOUR_API_KEY]" >> ./supabase/.env.local
+echo "ORGANIZATION_ID=[YOUR_ORGANIZATION_KEY]" >> ./supabase/.env.local
+```
+
 Start the application via Dart Edge CLU & the [`supabase` CLI](https://supabase.com/docs/guides/cli):
 
 ```bash
